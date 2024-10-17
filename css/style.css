@@ -238,8 +238,8 @@ ul,li{
 .btn-style-one:hover{
 	opacity:0.70;
 	color:#ffffff;
-	border-color:#03c7d9;
-	background-color:#03c7d9;
+	border-color:#03d931;
+	background-color:#03d931;
 }
 
 /*Btn Style Two*/
@@ -7229,12 +7229,12 @@ img{
 }
 
 .services-block-nine .inner-box .designation{
-	position:relative;
-	font-size:16px;
+	/* position:relative; */
+	font-size:17px;
 	padding-bottom: 16px;
 	width: 100%;
 	font-weight:500;
-	color:rgba(9,9,19,0.40);
+	color:rgba(9,9,19,0.80);
 	font-family: 'Poppins', sans-serif;
 }
 

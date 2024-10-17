@@ -95,8 +95,8 @@
 
                 <!-- Main Menu End -->
                 <!-- <div class="outer-box"> -->
-                  <!-- Nav Toggler -->
-                  <!-- <div class="nav-toggler">
+                <!-- Nav Toggler -->
+                <!-- <div class="nav-toggler">
                     <span class="flaticon-menu-options"></span>
                   </div> -->
                 <!-- </div> -->
@@ -447,10 +447,11 @@
               <div class="inner-box">
                 <div class="icon-box">
                   <span class="icon flaticon-ruler"></span>
-                  <h3><a href="services.html">Contan Creation</a></h3>
+                  <h3><a href="/services">Commercial Cleaning</a></h3>
                 </div>
                 <div class="designation">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Our tailored commercial cleaning is designed to make your
+                  business space splendid.
                 </div>
                 <div class="link-box">
                   <a href="#" class="theme-btn btn-style-one">Sign up</a>
@@ -464,10 +465,11 @@
               <div class="inner-box">
                 <div class="icon-box">
                   <span class="icon flaticon-application-development"></span>
-                  <h3><a href="services.html">Contan Creation</a></h3>
+                  <h3><a href="/services">Home Cleaning</a></h3>
                 </div>
                 <div class="designation">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Enjoy a spotless home without lifting a finger with our
+                  thorough home cleaning service.
                 </div>
                 <div class="link-box">
                   <a href="#" class="theme-btn btn-style-one">Sign up</a>
@@ -481,10 +483,11 @@
               <div class="inner-box">
                 <div class="icon-box">
                   <span class="icon flaticon-business-1"></span>
-                  <h3><a href="services.html">Contan Creation gg</a></h3>
+                  <h3><a href="/services">Airbnb Cleaning</a></h3>
                 </div>
                 <div class="designation">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Welcome your guests to an immaculate and inviting space with
+                  our meticulous Airbnb cleaning service.
                 </div>
                 <div class="link-box">
                   <a href="#" class="theme-btn btn-style-one">Sign up</a>
@@ -502,7 +505,7 @@
           <!--Image Column-->
           <div
             class="image-column"
-            style="background-image: url(images/resource/image-4.jpg)"
+            style="background-image: url(../assets/images/resource/image-4.jpg)"
           >
             <div class="big-letter"></div>
             <figure class="image-box">
@@ -1099,7 +1102,18 @@
               <div class="column-inner">
                 <!--Contact Form-->
                 <div class="contact-form">
-                  <form method="post">
+                  <form id="service-form" onsubmit="handleFormSubmit(event)">
+                    <!-- Replace with your Access Key -->
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="14ec3192-f7bf-40ce-9535-bbc21accae1e"
+                    />
+                    <input
+                      type="hidden"
+                      name="subject"
+                      value="-- New Request Form --"
+                    />
                     <div class="form-group">
                       <input
                         type="email"
@@ -1125,11 +1139,7 @@
                     </div>
 
                     <div class="form-group">
-                      <button
-                        class="theme-btn btn-style-twelve"
-                        type="submit"
-                        name="submit-form"
-                      >
+                      <button class="theme-btn btn-style-twelve" type="submit">
                         SEND MESSAGE
                       </button>
                     </div>
@@ -1327,28 +1337,29 @@
       <span class="fa fa-arrow-up"></span>
     </div>
 
-    <script src="../assets/js/jquery.js"></script>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/jquery.js"></script>
     <!--Revolution Slider-->
-    <script src="../assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="../assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="../assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="../assets/js/main-slider-script.js"></script>
+    <script src="./assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="./assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="./assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="./assets/js/main-slider-script.js"></script>
 
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../assets/js/jquery.fancybox.pack.js"></script>
-    <script src="../assets/js/jquery.fancybox-media.js"></script>
-    <script src="../assets/js/owl.js"></script>
-    <script src="../assets/js/wow.js"></script>
-    <script src="../assets/js/appear.js"></script>
-    <script src="../assets/js/script.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./assets/js/jquery.fancybox.pack.js"></script>
+    <script src="./assets/js/jquery.fancybox-media.js"></script>
+    <script src="./assets/js/owl.js"></script>
+    <script src="./assets/js/wow.js"></script>
+    <script src="./assets/js/appear.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

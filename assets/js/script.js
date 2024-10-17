@@ -655,4 +655,6 @@
 		enableMasonry();
 	});	
 
+	document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+
 })(window.jQuery);

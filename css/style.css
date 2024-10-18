@@ -163,7 +163,7 @@ Primary use: Multipurpose Template
 @import url("icons.css");
 @import url("icomoon.css");
 @import url("font-awesome-brands.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
 /* ==============================
    Variables
@@ -586,7 +586,7 @@ img:not([draggable]), embed, object, video{
   
 body{
     color: var(--color-dark-1);
-    font-family: var(--font-global);
+    font-family: "Radio Canada Big", sans-serif;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: normal;
@@ -4734,7 +4734,7 @@ a.logo:hover{
 .section-descr{
     margin-top: 0;
     color: var(--color-gray-1);
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: -0.005em;

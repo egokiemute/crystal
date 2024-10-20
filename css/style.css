@@ -1348,6 +1348,12 @@ a.btn-mod:focus{
     font-size: 13px;
     letter-spacing: 0.05em;
 } 
+.btn-mod.btn-smaller{
+    height: auto;
+    padding: 6px 10px;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+} 
 .btn-mod.btn-medium{
     height: auto;
     padding: 13px 20px 12px;

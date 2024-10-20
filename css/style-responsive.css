@@ -6,12 +6,20 @@
 
 @media only screen and (max-width: 1440px) {
     
+    .mobile-nav{
+        display: none;
+    }
+    
     .decoration-1{
         left: -30px;
     }
     
 }
 @media only screen and (max-width: 1366px) {	
+    
+    .mobile-nav{
+        display: none;
+    }
     
     root{
         --full-wrapper-margin-x: 30px;
@@ -294,6 +302,10 @@
 }
 @media only screen and (max-width: 1200px) {
     
+    .mobile-nav{
+        display: none;
+    }
+    
     .hs-paragraph-1{
         font-size: 15px;
     }
@@ -342,6 +354,10 @@
 }
 @media only screen and (max-width: 1199px) {
     
+    .mobile-nav{
+        display: none;
+    }
+    
     main{
         overflow: hidden;
     }    
@@ -372,6 +388,10 @@
    ============================== */
 
 @media only screen and (max-width: 1024px) {
+    
+    .mobile-nav{
+        display: none;
+    }
     
     .hs-paragraph-1{
         position: static;
@@ -448,6 +468,10 @@
 }
   
 @media only screen and (max-width: 991px) {
+    
+    .mobile-nav{
+        display: none;
+    }
      
     .works-grid.work-grid-gut-lg{
         margin: -40px 0 0 -30px;
@@ -556,6 +580,10 @@
   
 @media only screen and (max-width: 768px) {
     
+    .mobile-nav{
+        display: none;
+    }
+    
     .page-section,
     .split-column-left,
     .split-column-right{
@@ -627,6 +655,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .mobile-nav{
+        display: none;
+    }
     
     .fixed-height-small{
         height: 300px;

@@ -196,7 +196,7 @@ Primary use: Multipurpose Template
     --color-dark-mode-gray-2: rgba(255,255,255, .1275);
     --color-primary-1: #4567ed;
     --color-primary-1-a: #375ae3;    
-    --color-primary-light-1: #e3effe;
+    --color-primary-light-1: #fafafa;
     --color-primary-light-1-a: #bcd1f1;
     --color-primary-2: #7752e7;
     --color-primary-light-2: #e7defe;
@@ -1360,6 +1360,7 @@ a.btn-mod:focus{
     font-size: 13px;
     letter-spacing: 0.085em;
 } 
+
 
 .btn-mod.btn-w{
     color: var(--color-dark-1);
@@ -4622,7 +4623,7 @@ a.logo:hover{
     color: var(--color-primary-1);
     text-transform: uppercase;
     letter-spacing: 0.037em;    
-    background-image: linear-gradient( 15deg, var(--color-primary-light-1) 0%, transparent 100%);
+    background-color: var(--color-primary-light-1);
     border-radius: 100px;
 }
 .section-caption-fancy.large{
@@ -12407,3 +12408,18 @@ html:not(.mobile) .owl-animate-fadeInDown{
   .d-none {
     display: none;
   }
+
+  .my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+.flex {
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.gap-20{
+    gap: 18px;
+}

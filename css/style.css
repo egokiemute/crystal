@@ -1446,9 +1446,19 @@ a.btn-mod:focus{
     color: #fff;
     background: var(--color-primary-1);
 }
+.btn-mod.btn-color{
+    color: #fff;
+    background: var(--color-primary-1);
+}
 .btn-mod.btn-color-light{
     color: var(--color-primary-1);
     background: var(--color-primary-light-1);
+}
+.btn-mod.btn-color-light2{
+    color: var(--color-primary-1);
+    background: var(--color-primary-light-1);
+    border-radius: 10px;
+    margin: 0px auto;
 }
 
 .btn-mod.btn-dark,
@@ -4260,7 +4270,7 @@ a.logo:hover{
     background-color: var(--color-primary-4) !important;
 }
 .bg-gradient-gray-light-1{
-    background-color: #5887ee2d;
+    background-color: #1444aa;
 }
 .bg-gradient-gray-light-2{
     background-image: var(--gradient-gray-light-2);
@@ -4669,6 +4679,21 @@ a.logo:hover{
     line-height: 1.107;
     letter-spacing: -0.03em;
 }
+
+#services .section-title{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.107;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+#services .local-scroll a{
+    /* font-size: 56px;
+    font-weight: 500;
+    line-height: 1.107;
+    letter-spacing: -0.03em; */
+    color: #fff;
+}
 .section-title-tiny{
     font-size: 19px;
     font-weight: 500;
@@ -4725,7 +4750,7 @@ a.logo:hover{
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 .section-title-strong{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: -0.033em;
@@ -11521,7 +11546,8 @@ html:not(.mobile) .owl-animate-fadeInDown{
     letter-spacing: 0;
 }
 .testimonials-4-author{
-    color: var(--color-gray-1);
+    /* color: var(--color-gray-1); */
+    color: #1444aa;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.45;
@@ -12175,7 +12201,7 @@ html:not(.mobile) .owl-animate-fadeInDown{
 .tpl-progress-alt{
     height: 20px;
     line-height: 20px;
-    badding-bottom: 1px;
+    padding-bottom: 1px;
     margin-bottom: 30px;
     background: var(--color-gray-light-1);
     border-radius: 3px;
@@ -12428,4 +12454,37 @@ html:not(.mobile) .owl-animate-fadeInDown{
 }
 .gap-20{
     gap: 18px;
+}
+
+#testimonial .section-title-small, .number-1-title {
+    color: #fff;
+}
+#testimonial .section-descr, .number-1-descr {
+    color: #e6e6e6;
+}
+
+#pricing .section-title {
+    color: #fff;
+}
+
+#about .section-title {
+    color: #fff;
+}
+#about .section-descr {
+    color: #3a3a3a!important;
+}
+#about .section-title {
+    color: #fff;
+}
+#about h4 {
+    color: #fff;
+}
+#about p {
+    color: #e6e6e6!important;
+}
+#contact_form label {
+    color: #e6e6e6!important;
+}
+.form-title {
+    color: #fff!important;
 }

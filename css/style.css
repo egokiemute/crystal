@@ -12457,14 +12457,14 @@ html:not(.mobile) .owl-animate-fadeInDown{
 }
 
 #testimonial .section-title-small, .number-1-title {
-    color: #fff;
+    color: #f1c038;
 }
 #testimonial .section-descr, .number-1-descr {
     color: #e6e6e6;
 }
 
 #pricing .section-title {
-    color: #fff;
+    color: #f1c038;
 }
 
 #about .section-title {
@@ -12486,5 +12486,5 @@ html:not(.mobile) .owl-animate-fadeInDown{
     color: #e6e6e6!important;
 }
 .form-title {
-    color: #fff!important;
+    color: #f1c038!important;
 }

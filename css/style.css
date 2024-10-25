@@ -1,11 +1,5 @@
 @charset "utf-8";
 /*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project: Resonance
-Version: 1.0.3
-Last change: 26 November 2023
-Primary use: Multipurpose Template  
 -------------------------------------------------------------------*/
 
 
@@ -1433,13 +1427,13 @@ a.btn-mod:focus{
 }
 
 .btn-mod.btn-gray{
-    color: var(--color-dark-4);
-    background: var(--color-gray-light-3);
+    color: #000;
+    background: #f1c038;
 }
 .btn-mod.btn-gray:hover,
 .btn-mod.btn-gray:focus{
-    color: var(--color-dark-3);
-    background: var(--color-gray-light-4);
+    color: #000;
+    background: #f1c038;
 }
 
 .btn-mod.btn-color{
@@ -1554,13 +1548,13 @@ a.btn-mod:focus{
     top: 0;
     left: 0;
     transform: scale(.7) translateY(55%);
-    background: var(--color-dark-3a);
+    background: var(--color-secondary-1);
     border-radius: 100%;
     transition: all 0.25s cubic-bezier(0,0,.31,.99);
 }
 .btn-mod.btn-hover-anim:hover{
    opacity: 1;
-   border-color: var(--color-dark-3a);
+   border-color: var(--color-secondary-1);
 }
 .btn-mod.btn-hover-anim:hover:before{
    transform: scaleX(2) scaleY(1) translateY(-15%);
@@ -4273,7 +4267,7 @@ a.logo:hover{
     background-color: #1444aa;
 }
 .bg-gradient-gray-light-2{
-    background-image: var(--gradient-gray-light-2);
+    background-color: #fdf4d9;
 }
 .bg-gradient-gray-dark-1{
     background-image: linear-gradient(0deg, var(--color-dark-2) 0%, transparent 100%);
@@ -12457,14 +12451,14 @@ html:not(.mobile) .owl-animate-fadeInDown{
 }
 
 #testimonial .section-title-small, .number-1-title {
-    color: #f1c038;
+    /* color: #f1c038; */
 }
 #testimonial .section-descr, .number-1-descr {
-    color: #e6e6e6;
+    /* color: #e6e6e6; */
 }
 
 #pricing .section-title {
-    color: #f1c038;
+    color: #fff;
 }
 
 #about .section-title {
@@ -12486,5 +12480,5 @@ html:not(.mobile) .owl-animate-fadeInDown{
     color: #e6e6e6!important;
 }
 .form-title {
-    color: #f1c038!important;
+    color: #fff!important;
 }
